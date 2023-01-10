@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Second"
-    android:orientation="vertical"
-    android:background="@color/white"
-    >
+    tools:context=".pertamina">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,13 +18,13 @@
             android:layout_margin="6dp"
             android:background="#BFBFBF"
             android:scaleType="centerCrop"
-            android:src="@drawable/rshermina" />
+            android:src="@drawable/pertamina" />
         <TextView
             android:id="@+id/tv_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Rumahsakit Hermina Palembang">
+            android:text="Rumahsakit Pertamina Palembang">
         </TextView>
         <TextView
             android:id="@+id/tv_2"
@@ -35,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Phone : 0711-352525\nFax  : 0711-361880\nEmail  : palembang@herminahospitalgroup.com">
+            android:text="Phone : 0711-597401\nFax  : 0711-542388\nEmail  : customer.rspplaju@gmail.com">
         </TextView>
         <TextView
             android:id="@+id/tv_3"
@@ -51,20 +48,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="RS Hermina Palembang dibangun pada tahun 2011, yang menyediakan layanan khusus obgyn, pediatrik dan perawatan kecantikan. Rumah sakit ini memiliki lebih dari 200 tempat tidur, termasuk fasilitas ICU, PICU, NICU, Hemodialisis, Kemoterapi, Bobath, dan Sperm Washing">
+            android:text="Rumah Sakit Pertamina Plaju merupakan sarana pelayanan kesehatan meliputi Promotif, Preventif, Kuratif dan Rehabilitatif untuk pekerja dan keluarga Pertamina khususnya dan juga masyarakat umum. Didirikan sejak PT SHELL mengoperasikan kilang besar Plaju pada tanggal 20 Desember 1933">
         </TextView>
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/btn_lokasi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="130dp"
-            android:text="Lihat lokasi"
-            android:textSize="9dp"></Button>
+            <Button
+                android:id="@+id/btn_lokasi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="130dp"
+                android:text="Lihat lokasi"
+                android:textSize="9dp"></Button>
         </RelativeLayout>
     </LinearLayout>
+
 
 </ScrollView>

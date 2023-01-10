@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Project Pab</string>
+    <string name="app_name">hospitaly</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_swastamaps">swastamaps</string>
+    <string name="title_activity_bhayangkaramaps">bhayangkaramaps</string>
+    <string name="title_activity_akganimaps">akganimaps</string>
+    <string name="title_activity_sumselmaps">sumselmaps</string>
+    <string name="title_activity_pertaminamaps">pertaminamaps</string>
+    <string name="title_activity_hoesinmaps">hoesinmaps</string>
 </resources>

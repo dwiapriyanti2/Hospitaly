@@ -4,15 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Second"
-    android:orientation="vertical"
-    android:background="@color/white"
-    >
+    tools:context=".rscharitas">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <ImageView
             android:id="@+id/img_grid"
@@ -21,13 +17,13 @@
             android:layout_margin="6dp"
             android:background="#BFBFBF"
             android:scaleType="centerCrop"
-            android:src="@drawable/rshermina" />
+            android:src="@drawable/rscharitas1" />
         <TextView
             android:id="@+id/tv_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Rumahsakit Hermina Palembang">
+            android:text="Rumahsakit Charitas Palembang">
         </TextView>
         <TextView
             android:id="@+id/tv_2"
@@ -35,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Phone : 0711-352525\nFax  : 0711-361880\nEmail  : palembang@herminahospitalgroup.com">
+            android:text="Phone : 0711-353374\nFax  : 0711-362205\nEmail  :charitas@rscharitas.com">
         </TextView>
         <TextView
             android:id="@+id/tv_3"
@@ -51,19 +47,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="RS Hermina Palembang dibangun pada tahun 2011, yang menyediakan layanan khusus obgyn, pediatrik dan perawatan kecantikan. Rumah sakit ini memiliki lebih dari 200 tempat tidur, termasuk fasilitas ICU, PICU, NICU, Hemodialisis, Kemoterapi, Bobath, dan Sperm Washing">
+            android:text="Charitas Hospital Palembang siap melayani selama 24 jam mulai dari ruang emergencydan ambulance, rawat inap, ICU-ICCU-PICU-NICU, berkapasitas 333 tempat tidur dan total kamar sebanyak 186 kamar, juga sebagai rumah sakit swasta rujukan tertiar akut (acute tertiary care hospital). Charitas Hospital Palembang selalu berkomitmen untuk senantiasa memperbaiki mutu pelayanan secara berkesinambungan dan aman terhadap penderita, memperhatikan keluarga dan lingkungannya, serta peningkatan mutu, SDM - medis, paramedis, allied health personnel and staff. Unggulan keperawatan yang memperhatikan individu secara manusiawi, cost effective, membantu yang kurang mampu, disamping spesialisasi pelayanan serta memiliki 26 klinik spesialis, poli umum, poli akupuntur, pelayanan gigi, Klinik DOTS untuk pengobatan penyakit Tbc Paru masyarakat kurang mampu, VCT Mawar, Pastoral Care, Home Care dan meditasi.">
         </TextView>
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/btn_lokasi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="130dp"
-            android:text="Lihat lokasi"
-            android:textSize="9dp"></Button>
+            <Button
+                android:id="@+id/btn_lokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="130dp"
+                android:text="Lihat lokasi"
+                android:textSize="9dp"></Button>
         </RelativeLayout>
     </LinearLayout>
 

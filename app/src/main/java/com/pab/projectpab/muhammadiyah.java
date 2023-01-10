@@ -7,22 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class three extends AppCompatActivity {
-    Button btn_lokasi;
+public class muhammadiyah extends AppCompatActivity {
+    Button btn_maps;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_three);
-        btn_lokasi = findViewById(R.id.btn_lokasi);
-        btn_lokasi.setOnClickListener(new View.OnClickListener(){
+        setContentView(R.layout.activity_muhammadiyah);
+        btn_maps = findViewById(R.id.btn_maps);
+        btn_maps.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent PINDAH = new Intent(three.this, swastamaps.class);
+                Intent PINDAH = new Intent(muhammadiyah.this, swastamaps.class);
                 startActivity(PINDAH);
 
             }
 
         });
-
     }
 }

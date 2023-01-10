@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Second"
-    android:orientation="vertical"
-    android:background="@color/white"
-    >
+    tools:context=".bhayangkara">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,13 +18,13 @@
             android:layout_margin="6dp"
             android:background="#BFBFBF"
             android:scaleType="centerCrop"
-            android:src="@drawable/rshermina" />
+            android:src="@drawable/bhayangkara" />
         <TextView
             android:id="@+id/tv_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Rumahsakit Hermina Palembang">
+            android:text="Rumahsakit Bhayangkara Palembang">
         </TextView>
         <TextView
             android:id="@+id/tv_2"
@@ -35,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Phone : 0711-352525\nFax  : 0711-361880\nEmail  : palembang@herminahospitalgroup.com">
+            android:text="Phone : 0711-414855\nFax  : 0711-410023\nEmail  : rs.bhayangkara.palembang@gmail.com">
         </TextView>
         <TextView
             android:id="@+id/tv_3"
@@ -51,19 +48,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="RS Hermina Palembang dibangun pada tahun 2011, yang menyediakan layanan khusus obgyn, pediatrik dan perawatan kecantikan. Rumah sakit ini memiliki lebih dari 200 tempat tidur, termasuk fasilitas ICU, PICU, NICU, Hemodialisis, Kemoterapi, Bobath, dan Sperm Washing">
+            android:text="Kami melayani dengan Ikhlas dan Profesional, selain memberikan pelayanan kesehatan kepada Anggota Polri, RS Bhayangkara Palembang juga melayani pasien umum BPJS. Didukung oleh tenaga kesehatan yang Profesional, Terlatih dan Berpengalaman. RS Bhayangkara Palembang salah satu Rumah Sakit yang memiliki pelayanan hemodialisa anak dan dewasa. Dukungan Peralatan canggih terkini dan terakreditasi seperti CT Scan,\n Ruang operasi dengan Sistem MOT (Modular Operating ">
         </TextView>
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/btn_lokasi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="130dp"
-            android:text="Lihat lokasi"
-            android:textSize="9dp"></Button>
+            <Button
+                android:id="@+id/btn_lokasi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="130dp"
+                android:text="Lihat lokasi"
+                android:textSize="9dp"></Button>
         </RelativeLayout>
     </LinearLayout>
 

@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Second"
-    android:orientation="vertical"
-    android:background="@color/white"
-    >
+    tools:context=".Four">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,13 +19,13 @@
             android:layout_margin="6dp"
             android:background="#BFBFBF"
             android:scaleType="centerCrop"
-            android:src="@drawable/rshermina" />
+            android:src="@drawable/img_3" />
         <TextView
             android:id="@+id/tv_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Rumahsakit Hermina Palembang">
+            android:text="Rumah sakit BUNDA">
         </TextView>
         <TextView
             android:id="@+id/tv_2"
@@ -35,7 +33,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Phone : 0711-352525\nFax  : 0711-361880\nEmail  : palembang@herminahospitalgroup.com">
+            android:text="Phone : 0711-311866\nFax  : 0711-355553\nEmail  : rs.bunda.palembang@gmail.com
+                ">
         </TextView>
         <TextView
             android:id="@+id/tv_3"
@@ -51,20 +50,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="RS Hermina Palembang dibangun pada tahun 2011, yang menyediakan layanan khusus obgyn, pediatrik dan perawatan kecantikan. Rumah sakit ini memiliki lebih dari 200 tempat tidur, termasuk fasilitas ICU, PICU, NICU, Hemodialisis, Kemoterapi, Bobath, dan Sperm Washing">
+            android:text="Rumah Sakit Bunda Palembang yang beroperasi sejak tanggal 6 Agustus 1990, dibawah naungan Yayasan Bunda Palembang. Rumah Sakit Bunda Palembang memiliki Visi mewujudkan Rumah Sakit pilihan utama masyarakat dengan pelayanan yang berkualitas. Dengan Misi memberikan pelayanan yang berkualitas dan meningkatkan kualitas SDM">
         </TextView>
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+
         <Button
-            android:id="@+id/btn_lokasi"
+            android:id="@+id/btn_pindah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="130dp"
             android:text="Lihat lokasi"
             android:textSize="9dp"></Button>
-        </RelativeLayout>
+
     </LinearLayout>
+
 
 </ScrollView>

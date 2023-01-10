@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         btn_swasta.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent PINDAH = new Intent(MainActivity.this, Second.class);
+                Intent PINDAH = new Intent(MainActivity.this, swasta.class);
                 startActivity(PINDAH);
             }
         });
         btn_umum.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent PINDAH = new Intent(MainActivity.this, three.class);
+                Intent PINDAH = new Intent(MainActivity.this, umum.class);
                 startActivity(PINDAH);
             }
         });

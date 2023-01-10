@@ -7,22 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class three extends AppCompatActivity {
+public class siloam extends AppCompatActivity {
     Button btn_lokasi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_three);
+        setContentView(R.layout.activity_siloam);
         btn_lokasi = findViewById(R.id.btn_lokasi);
-        btn_lokasi.setOnClickListener(new View.OnClickListener(){
+        btn_lokasi.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
-                Intent PINDAH = new Intent(three.this, swastamaps.class);
+            public void onClick(View view) {
+                Intent PINDAH = new Intent(siloam.this, siloammaps.class);
                 startActivity(PINDAH);
-
             }
-
         });
-
     }
 }
