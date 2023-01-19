@@ -32,14 +32,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nama : Dwi Apriyanti Sastika"
+                android:text="Nama : Dwi apriyanti sastika"
                 android:textSize="20dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="120dp"></TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" NPM : 2024240045"
+                android:text=" Npm : 2024240045"
                 android:textSize="20dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="120dp">
@@ -59,14 +59,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nama : Nabila Savitri"
+                android:text="Nama :Nabila Savitri"
                 android:textSize="20dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="120dp"></TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" NPM : 2024240072"
+                android:text=" Npm : 2024240072"
                 android:textSize="20dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="120dp">
@@ -93,7 +93,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" NPM : 2024240079"
+                android:text=" Npm : 2024240079"
                 android:textSize="20dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="120dp">
