@@ -45,7 +45,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="160dp"
                 android:justificationMode="inter_word"
-                android:text="Rumahsakit Bhayangkara Palembang"
+                android:text="Rumah Sakit Bhayangkara Palembang"
                 android:textAllCaps="true"
                 android:textSize="15dp"
                 android:textStyle="bold"></TextView>
@@ -57,7 +57,7 @@
                 android:layout_marginTop="60dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="TYPE:C"
+                android:text="TYPE : C"
                 android:textAllCaps="true"></TextView>
 
             <TextView
@@ -67,7 +67,7 @@
                 android:layout_marginTop="80dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="Alamat:Jl. Jend. Sudirman KM 4,5 Kota Palembang 30128"
+                android:text="Alamat : Jl. Jend. Sudirman KM 4,5 Kota Palembang 30128"
                 android:textSize="15dp"></TextView>
 
             <Button
@@ -100,7 +100,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="160dp"
                 android:justificationMode="inter_word"
-                android:text="Rumahsakit A.K GANI Palembang"
+                android:text="Rumah Sakit A.K GANI Palembang"
                 android:textAllCaps="true"
                 android:textSize="15dp"
                 android:textStyle="bold"></TextView>
@@ -112,7 +112,7 @@
                 android:layout_marginTop="60dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="TYPE:C"
+                android:text="TYPE : C"
                 android:textAllCaps="true"></TextView>
 
             <TextView
@@ -122,7 +122,7 @@
                 android:layout_marginTop="80dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="Alamat:Jl. dr AK Gani no I Kota Palembang 30132"
+                android:text="Alamat : Jl. dr AK Gani no I Kota Palembang 30132"
                 android:textSize="15dp"></TextView>
 
             <Button
@@ -155,7 +155,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="160dp"
                 android:justificationMode="inter_word"
-                android:text="Rumahsakit mata \nprovinsi sumateraselatan"
+                android:text="Rumah Sakit Mata \nprovinsi sumateraselatan"
                 android:textAllCaps="true"
                 android:textSize="15dp"
                 android:textStyle="bold"></TextView>
@@ -167,7 +167,7 @@
                 android:layout_marginTop="60dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="TYPE:C"
+                android:text="TYPE : C"
                 android:textAllCaps="true"></TextView>
 
             <TextView
@@ -177,7 +177,7 @@
                 android:layout_marginTop="80dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="Alamat:Jl. Kol. H. Burlian KM.6 Kota Palembang 30151"
+                android:text="Alamat : Jl. Kol. H. Burlian KM.6 Kota Palembang 30151"
                 android:textSize="15dp"></TextView>
 
             <Button
@@ -209,7 +209,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginLeft="160dp"
-                android:text="Rumahsakit Pertamina Palembang"
+                android:text="Rumah Sakit Pertamina Palembang"
                 android:textAllCaps="true"
                 android:textSize="15dp"
                 android:textStyle="bold"></TextView>
@@ -221,7 +221,7 @@
                 android:layout_marginTop="60dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="TYPE:C"
+                android:text="TYPE : C"
                 android:textAllCaps="true"></TextView>
 
             <TextView
@@ -231,7 +231,7 @@
                 android:layout_marginTop="80dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="Alamat:Komplek Pertamina Plaju, Kota Palembang 30628"
+                android:text="Alamat : Komplek Pertamina Plaju, Kota Palembang 30628"
                 android:textSize="15dp"></TextView>
 
             <Button
@@ -263,7 +263,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginLeft="160dp"
-                android:text="Rumahsakit hoesin Palembang"
+                android:text="Rumah Sakit Hoesin Palembang"
                 android:textAllCaps="true"
                 android:textSize="15dp"
                 android:textStyle="bold"></TextView>
@@ -275,7 +275,7 @@
                 android:layout_marginTop="60dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="TYPE:A"
+                android:text="TYPE : A"
                 android:textAllCaps="true"></TextView>
 
             <TextView
@@ -285,7 +285,7 @@
                 android:layout_marginTop="80dp"
                 android:paddingLeft="58dp"
                 android:paddingTop="10dp"
-                android:text="Alamat:JL Jendral Sudirman KM 3,5 Kota Palembang 30126"
+                android:text="Alamat : JL Jendral Sudirman KM 3,5 Kota Palembang 30126"
                 android:textSize="15dp"></TextView>
 
             <Button

@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_grid"
-            android:text="Rumahsakit Charitas Palembang">
+            android:text="Rumah Sakit Charitas Palembang">
         </TextView>
         <TextView
             android:id="@+id/tv_2"
