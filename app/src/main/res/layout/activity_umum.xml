@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
-            android:text="Rumah Sakit Swasta"
+            android:text="Rumah Sakit Umum"
             android:textSize="23sp"
             android:layout_gravity="center"
             android:layout_marginLeft="0dp"

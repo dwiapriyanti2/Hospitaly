@@ -44,8 +44,8 @@ public class sumselmaps extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-2.94997, 104.73408);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Palembang"));
+        LatLng sydney = new LatLng(-2.9499411, 104.7339749);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Rumah Sakit Mata Sumatra Selatan"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

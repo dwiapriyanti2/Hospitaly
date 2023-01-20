@@ -11,7 +11,7 @@
         android:id="@+id/tv_Tampilan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SELAMAT DATANG \nDi APLIKASI HOSPITALKU"
+        android:text="SELAMAT DATANG \nDi APLIKASI HOSPITAlY"
         android:textStyle="bold"
         android:textColor="@color/purple_700"
         android:layout_centerHorizontal="true"

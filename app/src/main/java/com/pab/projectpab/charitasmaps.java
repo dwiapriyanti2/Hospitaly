@@ -1,8 +1,8 @@
 package com.pab.projectpab;
 
-import android.os.Bundle;
-
 import androidx.fragment.app.FragmentActivity;
+
+import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -10,18 +10,18 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.pab.projectpab.databinding.ActivitySwastamapsBinding;
+import com.pab.projectpab.databinding.ActivityCharitasmapsBinding;
 
-public class swastamaps2 extends FragmentActivity implements OnMapReadyCallback {
+public class charitasmaps extends FragmentActivity implements OnMapReadyCallback {
 
-    private GoogleMap mMap,mMap2;
-    private ActivitySwastamapsBinding binding;
+    private GoogleMap mMap;
+    private ActivityCharitasmapsBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivitySwastamapsBinding.inflate(getLayoutInflater());
+        binding = ActivityCharitasmapsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -42,20 +42,10 @@ public class swastamaps2 extends FragmentActivity implements OnMapReadyCallback 
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+
         // Add a marker in Sydney and move the camera
-        LatLng palembang = new LatLng(-2.95555, 104.74839);
-        mMap.addMarker(new MarkerOptions().position(palembang).title("Tekan in palembang"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(palembang));
-        // Mengambil referensi ke fragment peta
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
-
-// Mengatur opsi peta
-
-
+        LatLng sydney = new LatLng(-2.975193, 104.7523706);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Rumah Sakit Charitas"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
-
-
-
-
 }

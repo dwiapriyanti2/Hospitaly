@@ -44,8 +44,8 @@ public class bhayangkaramaps extends FragmentActivity implements OnMapReadyCallb
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng palembang = new LatLng(-2.76845, 104.84819);
-        mMap.addMarker(new MarkerOptions().position(palembang).title("Marker in Palembang"));
+        LatLng palembang = new LatLng(-2.9579149, 104.7367248);
+        mMap.addMarker(new MarkerOptions().position(palembang).title("Rumah Sakit Bhayangkara"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(palembang));
     }
 }

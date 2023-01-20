@@ -43,8 +43,8 @@ public class swastamaps extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         // Add a marker in Sydney and move the camera
-        LatLng palembang = new LatLng(-2.95555, 104.74839);
-        mMap.addMarker(new MarkerOptions().position(palembang).title("Tekan in palembang"));
+        LatLng palembang = new LatLng(-3.0341674, 104.7905115);
+        mMap.addMarker(new MarkerOptions().position(palembang).title("Rumah Sakit Hermina"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(palembang));
         // Mengambil referensi ke fragment peta
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()

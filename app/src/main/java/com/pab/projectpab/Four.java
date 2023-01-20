@@ -17,7 +17,7 @@ public class Four extends AppCompatActivity {
         btn_pindah.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent PINDAH = new Intent(Four.this, swastamaps.class);
+                Intent PINDAH = new Intent(Four.this, fourmaps.class);
                 startActivity(PINDAH);
 
             }

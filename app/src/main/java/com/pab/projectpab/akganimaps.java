@@ -44,8 +44,8 @@ public class akganimaps extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng Palembang = new LatLng(-2.98668, 104.76054);
-        mMap.addMarker(new MarkerOptions().position(Palembang).title("Marker in palembang"));
+        LatLng Palembang = new LatLng(-2.9902704, 104.7586654);
+        mMap.addMarker(new MarkerOptions().position(Palembang).title("Rumah Sakit Ak Gani Palembang"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Palembang));
     }
 }

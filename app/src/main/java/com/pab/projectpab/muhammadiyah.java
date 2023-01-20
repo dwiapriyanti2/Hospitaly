@@ -17,7 +17,7 @@ public class muhammadiyah extends AppCompatActivity {
         btn_maps.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent PINDAH = new Intent(muhammadiyah.this, swastamaps.class);
+                Intent PINDAH = new Intent(muhammadiyah.this, muhammadiyahmaps.class);
                 startActivity(PINDAH);
 
             }

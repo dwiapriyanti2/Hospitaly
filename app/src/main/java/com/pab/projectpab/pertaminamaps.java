@@ -44,8 +44,8 @@ public class pertaminamaps extends FragmentActivity implements OnMapReadyCallbac
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng palembang = new LatLng(-2.95389, 10476906);
-        mMap.addMarker(new MarkerOptions().position(palembang).title("Marker in Palembang"));
+        LatLng palembang = new LatLng(-2.9537766, 104.7690688);
+        mMap.addMarker(new MarkerOptions().position(palembang).title("Rumah Sakit Pertamina Palembang "));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(palembang));
     }
 }

@@ -17,7 +17,7 @@ public class rscharitas extends AppCompatActivity {
         btn_lokasi.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent PINDAH = new Intent(rscharitas.this, swastamaps.class);
+                Intent PINDAH = new Intent(rscharitas.this, charitasmaps.class);
                 startActivity(PINDAH);
 
             }

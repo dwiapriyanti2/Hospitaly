@@ -57,7 +57,7 @@ public class umum extends AppCompatActivity {
         btn_detail4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent PINDAH2 = new Intent(umum.this, matasumsel.class);
+                Intent PINDAH2 = new Intent(umum.this, pertamina.class);
                 startActivity(PINDAH2);
             }
         });

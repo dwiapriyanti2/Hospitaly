@@ -7,4 +7,8 @@
     <string name="title_activity_sumselmaps">sumselmaps</string>
     <string name="title_activity_pertaminamaps">pertaminamaps</string>
     <string name="title_activity_hoesinmaps">hoesinmaps</string>
+    <string name="title_activity_fourmaps">fourmaps</string>
+    <string name="title_activity_charitasmaps">charitasmaps</string>
+    <string name="title_activity_muhammadiyahmaps">muhammadiyahmaps</string>
+    <string name="title_activity_siloammaps">siloammaps</string>
 </resources>

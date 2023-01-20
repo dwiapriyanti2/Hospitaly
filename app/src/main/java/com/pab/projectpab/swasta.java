@@ -64,7 +64,7 @@ public class swasta extends AppCompatActivity {
         btn5_detail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PINDAH = new Intent(swasta.this, muhammadiyah.class);
+                Intent PINDAH = new Intent(swasta.this, siloam.class);
                 startActivity(PINDAH);
             }
         });

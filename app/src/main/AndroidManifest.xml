@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectPab"
-        tools:targetApi="31" >
+        tools:targetApi="31">
 
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -29,15 +29,31 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="${MAPS_API_KEY}" />
+            android:value="YOUR_API_KEY" />
 
+        <activity
+            android:name=".siloammaps"
+            android:exported="false"
+            android:label="@string/title_activity_siloammaps" />
+        <activity
+            android:name=".muhammadiyahmaps"
+            android:exported="false"
+            android:label="@string/title_activity_muhammadiyahmaps" />
+        <activity
+            android:name=".charitasmaps"
+            android:exported="false"
+            android:label="@string/title_activity_charitasmaps" />
+        <activity
+            android:name=".fourmaps"
+            android:exported="false"
+            android:label="@string/title_activity_fourmaps" />
         <activity
             android:name=".hoesinmaps"
             android:exported="false"
             android:label="@string/title_activity_hoesinmaps" />
         <activity
             android:name=".hoesin"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -48,7 +64,7 @@
             android:label="@string/title_activity_pertaminamaps" />
         <activity
             android:name=".pertamina"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -59,7 +75,7 @@
             android:label="@string/title_activity_sumselmaps" />
         <activity
             android:name=".matasumsel"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -74,28 +90,28 @@
             android:label="@string/title_activity_bhayangkaramaps" />
         <activity
             android:name=".akgani"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".bhayangkara"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".siloam"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".muhammadiyah"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -103,8 +119,7 @@
         <activity
             android:name=".swasta"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
-            >
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -115,7 +130,7 @@
             android:label="@string/title_activity_swastamaps" />
         <activity
             android:name=".rscharitas"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -123,43 +138,42 @@
         <activity
             android:name=".umum"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
-            >
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".Four"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".About"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".three"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".splashscreen"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

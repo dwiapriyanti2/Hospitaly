@@ -44,8 +44,8 @@ public class hoesinmaps extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-2.96627, 104.75026);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        LatLng sydney = new LatLng(-2.9663064, 104.7465055);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Rumah Sakit Hoesin Palembang"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
